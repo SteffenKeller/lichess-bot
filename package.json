@@ -1,0 +1,19 @@
+{
+  "name": "lichess-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Steffen Keller",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "node-fetch": "^2.6.1",
+    "stockfish": "^11.0.0",
+    "stream-json": "^1.7.2",
+    "workerpool": "^6.1.5"
+  }
+}
