@@ -10,7 +10,7 @@ A simple [lichess.org](https://lichess.org) chess bot implementing the [Stockfis
 
 ## Features
 
-- If `CHALLANGE_RANDOOM_BOTS` is set to `true`, the bot will regularly fetch online bots and challenge a random bot. The online bots are cached in the `bots.json` file.
+- If `CHALLANGE_RANDOM_BOTS` is set to `true`, the bot will regularly fetch online bots and challenge a random bot. The online bots are cached in the `bots.json` file.
 - Received chat messages will be logged in the `chat.txt` file.
 - The engine depth may be adjusted using the `ENGINE_DEPTH` config variable.
 - The maximum number of simultaneous games can be set with the `MAX_ACTIVE_GAMES` config variable.
